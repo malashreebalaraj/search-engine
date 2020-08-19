@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot of App component 1`] = `
+<div
+  className="App"
+>
+  <form
+    className="Form"
+  >
+    <h1>
+      <span
+        style={
+          Object {
+            "background": "#FFFFFF7F",
+            "color": "black",
+          }
+        }
+      >
+        Search Books
+      </span>
+    </h1>
+    <input
+      data-testid="search-box"
+      onChange={[Function]}
+      placeholder="Enter your search here"
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="button"
+      onClick={[Function]}
+      value="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

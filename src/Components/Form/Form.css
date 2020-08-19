@@ -1,0 +1,57 @@
+.Form {
+}
+body {
+  font: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+}
+
+.Form input {
+  width: 350px;
+  margin: 5px;
+  position: relative;
+  font-size: 16x;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.Form button {
+  width: auto;
+  margin: 5px;
+}
+
+.Form ul {
+  width: 350px;
+  list-style-type: none;
+  text-align: left;
+  /* margin: auto 30px auto 396px; */
+  margin: auto auto auto auto;
+  padding: 0;
+  border: none;
+  color: black;
+  text-indent: 0.01px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.18);
+  background-color: white;
+  z-index: 999;
+  position: relative;
+}
+
+.Form ul::before {
+  content: "";
+}
+
+.Form li {
+  padding: 10px 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 999;
+  margin: auto auto auto auto;
+}
+
+.Form li:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
